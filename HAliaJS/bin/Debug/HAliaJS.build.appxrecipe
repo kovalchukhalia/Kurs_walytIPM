@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-LGVMG2S</Machine>
+    <WindowsUser>koval</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a9311371-2f29-4d82-9302-87ef7507a1ae</PackageIdentityName>
+    <PackageIdentityPublisher>CN=koval</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\диплом 2016\HAliaJS\HAliaJS\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\диплом 2016\HAliaJS\HAliaJS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\css\bootstrap.min.css">
+      <PackagePath>css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\lib\winjs-4.0.1\css\ui-light.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\lib\winjs-4.0.1\css\ui-dark.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\main.html">
+      <PackagePath>main.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\page.html">
+      <PackagePath>page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\js\chart.js">
+      <PackagePath>js\chart.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\js\scr.js">
+      <PackagePath>js\scr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\lib\winjs-4.0.1\js\base.js">
+      <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\lib\winjs-4.0.1\js\ui.js">
+      <PackagePath>lib\winjs-4.0.1\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\lib\winjs-4.0.1\fonts\Symbols.ttf">
+      <PackagePath>lib\winjs-4.0.1\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\диплом 2016\HAliaJS\HAliaJS\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

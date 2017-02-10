@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <!--połączenie pliku js script.js-->
+    <link href="lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+                <!-- linky WinJS -->
+            
+            
+            <script type="text/javascript" src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
+            <script type="text/javascript" src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
+            <link rel="stylesheet" type="text/css" href="//Microsoft.WinJS.1.0.RC/css/ui-light.css" />
+
+            <!-- linky JS -->
+            <link href="/css/default.css" rel="stylesheet" />
+            <script src="/js/scr.js"></script>
+            <script src="/js/script.js"></script>
+            <!-- linky bootstrap -->
+
+            <link href="css/bootstrap.css" rel="stylesheet" />
+            <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        </head>
+        <body class="win-type-body">
+
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Kurs Walut</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="main.html">Home</a></li>
+                        <li><a href="index.html">Zmiana daty</a></li>
+                        <!--<li><a href="page.html">Chart</a></li>-->
+
+                    </ul>
+                </div>
+            </nav>
+          
+                <!-- Content area -->
+                <div id="listView" class="contenttext">
+                    <h6 class="win-h3">Dzisiejsze dane</h6>
+                          <!--<p id="date"></p>
+
+                    <script>
+                        document.getElementById("date").innerHTML = Date();
+                    </script>-->
+                  
+                    <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+                        <div class="smallListIconTextItem">
+                            <div class="smallListIconTextItem-Detail">
+                                <a class="win-h4" id="win-h4" href="page.html" data-win-bind="textContent: names"></a>
+                                <p class="win-h6" data-win-bind="textContent: przelicznik "></p>
+                                <p class="win-h6" data-win-bind="textContent: kod"></p>
+                                <p class="win-h6" data-win-bind="textContent: kurs"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="listView"
+                     class="win-selectionstylefilled" data-win-control="WinJS.UI.ListView"
+                    data-win-options="{
+                    itemDataSource: Sample.ListView.data.dataSource,
+                    itemTemplate: select('.smallListIconTextTemplate'),
+                    selectionMode: 'none',
+                    tapBehavior: 'none',
+                    layout: { type: WinJS.UI.ListLayout }
+                                       }">
+                </div>
+          
+<div class="basic-list-view" data-win-control="WinJS.UI.ListView" />
+
+
+
+</body>
+</html>

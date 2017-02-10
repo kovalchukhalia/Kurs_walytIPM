@@ -1,0 +1,126 @@
+﻿body {
+    background-color: aquamarine;
+    color: aqua;
+}
+/*для селекта*/
+
+select {
+    float:left;
+    width:350px;
+    }
+
+ div.scroll {
+  background-color: #00FFFF;
+  width: 100px;
+  height: 200px;
+ overflow: scroll;
+             }
+
+ div.hidden {
+  background-color: #00FF00;
+  width: 100px;
+  height: 200px;
+  overflow: hidden;
+   }
+.content,
+#app {
+    height: 100%;
+    width:100%;
+}
+h3 {
+    text-align:center;
+}
+.h1center {
+    text-align:center;
+}
+    #app .win-splitviewpanetoggle {
+        float: left;
+    }
+        
+        #app a:hover {
+        color:darkred;
+        /*font-size:medium;*/
+        }
+ 
+    /* SplitView pane content style*/
+    #app .header {
+        white-space: nowrap;
+        background-color:   cornflowerblue;
+    }
+  
+    #app .title {
+        font-size: 25px;
+        left: 50px;
+        margin-top: 6px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+
+.div-display-items {
+background-color:aqua;
+}
+
+
+
+.win-selectionstylefilled { /*//перелік валют*/
+     color: black;
+     background-color:white;
+     height: 100%;
+      
+}
+.colormenu {
+
+    background-color:  lavender ;
+}
+    #app .nav-commands {
+        margin-top: 20px;
+        background:beige;
+    }
+.win-h3 {
+    text-align:center;
+    color: darkblue;
+    font-weight:bold;
+}
+  .title {
+    margin-left:70px;
+    color:  ghostwhite;
+
+}
+
+.win-splitviewcommand-button {
+    background-color: black;
+}
+
+#app .win-splitview-pane-closed .win-splitviewcommand-label {
+   
+    visibility: hidden;
+}
+
+/*SplitView content style*/
+#app .win-splitview-content {
+    background-color: white;
+}
+
+/*#app .contenttext {
+    margin-left: 20px;
+    margin-top: 6px;
+}*/
+.nameLink {
+  font-size: 20px;
+  background-color:white;
+}
+/*.win-type-body {
+
+  background-color:white;
+
+}*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: white;
+    text-decoration:  dotted;
+}

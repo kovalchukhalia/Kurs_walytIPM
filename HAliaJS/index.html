@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>KursyWalut</title>
+    <!--połączenie bibliotek-->
+    <link href="lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <!--bibliotek bootstrap dla style-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--połączenie pliku js script.js-->
+    <script src="js/script.js"></script>
+    <!--<link href="/css/default.css" rel="stylesheet" />-->
+</head>
+
+<body class="win-type-body">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">Kurs Walut</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="main.html">Home</a></li>
+                <li><a href="index.html">Zmiana daty</a></li>
+                <!--<li><a href="page.html">Chart</a></li>-->
+                <!--<li><a href="#">Page 3</a></li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <!--<div>
+    <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+    <select multiple class="form-control" id="sel2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+        </div>-->
+    <!--<style>
+         select {
+        float: unset;
+        width:350px;
+        height:350px;
+    }
+    </style>-->
+    <div class="form-inline col-lg-1">
+        <div class="form-group col-lg-12">
+            <select multiple class="form-control " id="year">
+                <optgroup label="Year" data-max-options="2"></optgroup>
+            </select>
+
+            <!--<select class="selectpicker" multiple data-max-options="2"id="year-select"></select>-->
+            <select class="form-control " id="date">
+                <optgroup label="Date" data-max-options="2"></optgroup>
+            </select>
+        </div>
+        </div>
+    <!--tworzenie tabeli do odczytanych danych-->
+     <div id="tableContent" style="overflow: auto;height: 95%;">
+        <table class="table table-condensed ">
+            <tbody id="myTemplate" class="div-display-items" data-win-control="WinJS.Binding.Template">
+                <tr>
+                    <td width="50px" data-win-bind="innerText:currencyName"></td>
+                    <td width="50px" data-win-bind="innerText:currencyCode"></td>
+                    <td width="50px" data-win-bind="innerText:averageRate"></td>
+                    <td width="50px" data-win-bind="innerText:converter"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-striped table-hover ">
+            <!--wywietlenie tytułu tabeli-->
+            <thead>
+                <tr><th width="50px">Nazwa</th><th width="50px">Kod</th><th width="50px">Kurs średni</th><th width="50px">Przelicznik</th></tr>
+            </thead>
+            <tbody id="newTable"></tbody>
+        </table>
+    </div>
+ 
+    <div class="basic-list-view" data-win-control="WinJS.UI.ListView" />
+</body>
+</html>
